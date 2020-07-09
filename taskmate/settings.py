@@ -19,7 +19,7 @@ SECRET_KEY = env('DJANGO_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env('DJANGO_DEBUG')
 # Need Debug = False in deployemnt
-
+#just checking
 ALLOWED_HOSTS = [env('DJANGO_ALLOWED_HOSTS')]
 # write url in allowed hosts while deployement like in AWS, Heroku, etc..
 
